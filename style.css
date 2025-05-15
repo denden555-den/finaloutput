@@ -1,0 +1,149 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e1ff00;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer {
+  margin-top: auto;
+}
+
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {   
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.btn-primary {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0053ba;
+  box-shadow: 0 0 10px rgba(0, 105, 217, 0.4);
+}
+
+
+form .form-control,
+form .form-select {   
+  margin-bottom: 15px;
+}
+
+
+.card-title {
+  font-weight: bold;
+}
+
+
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.product-card {
+  width: 250px;
+  border: 1px solid #dddddd8e;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+    /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Center content vertically and horizontally */
+body, html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container for the login box */
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+}
+
+/* Headings */
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form layout */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.auth-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.auth-form button,
+.auth-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover,
+.auth-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Link */
+.auth-form p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.auth-form a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
